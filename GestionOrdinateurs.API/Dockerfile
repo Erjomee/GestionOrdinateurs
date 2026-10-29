@@ -1,0 +1,24 @@
+
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+COPY ../GestionOrdinateurs.API/GestionOrdinateurs.API.csproj ./GestionOrdinateurs.API/
+COPY ../GestionOrdinateurs.Shared/GestionOrdinateurs.Shared.csproj ./GestionOrdinateurs.Shared/
+
+RUN dotnet restore GestionOrdinateurs.API/GestionOrdinateurs.API.csproj
+
+COPY GestionOrdinateurs.API/ GestionOrdinateurs.API/
+COPY GestionOrdinateurs.Shared/ GestionOrdinateurs.Shared/
+
+RUN dotnet publish GestionOrdinateurs.API/GestionOrdinateurs.API.csproj -c Release -o /app/out
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+WORKDIR /app
+
+COPY --from=build /app/out .
+
+ENV ASPNETCORE_URLS=http://+:8080
+
+EXPOSE 8080
+
+ENTRYPOINT ["dotnet", "GestionOrdinateurs.API.dll"]
