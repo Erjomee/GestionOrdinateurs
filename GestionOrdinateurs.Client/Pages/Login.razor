@@ -1,0 +1,85 @@
+
+@page "/login"
+@using System.Net
+@using System.Net.Http.Json
+@using Blazored.SessionStorage
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory HttpClientFactory
+@inject ISessionStorageService SessionStorage
+@inject NavigationManager Navigation
+
+<h3>Connexion</h3>
+
+<div>
+    <label>Login :</label>
+    <input @bind="login" />
+    <button @onclick="Connecter">Connecter</button>
+</div>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p>@message</p>
+}
+
+@code {
+    private string login = "";
+    private string message = "";
+
+    private async Task Connecter()
+    {
+        message = "";
+
+        if (string.IsNullOrWhiteSpace(login))
+        {
+            message = "Veuillez saisir un login.";
+            return;
+        }
+
+        try
+        {
+            var client = HttpClientFactory.CreateClient("AuthenticationApi");
+
+            var response = await client.PostAsJsonAsync(
+                "authentication",
+                new { login = login });
+
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                message = "Cet utilisateur n'existe pas.";
+                return;
+            }
+
+            if (!response.IsSuccessStatusCode)
+            {
+                message = "Erreur lors de la connexion.";
+                return;
+            }
+
+            var result = await response.Content
+                .ReadFromJsonAsync<TokenResponse>();
+
+            if (result == null || string.IsNullOrEmpty(result.Token))
+            {
+                message = "Le token reçu est invalide.";
+                return;
+            }
+
+            await SessionStorage.SetItemAsync("token", result.Token);
+
+            message = "Connexion réussie ! Token sauvegardé en session.";
+
+            @* Retour à l accueil *@
+            Navigation.NavigateTo("/");
+        }
+        catch (HttpRequestException)
+        {
+            message = "Impossible de contacter l'API. Vérifiez qu'elle est lancée et le CORS.";
+        }
+    }
+
+    private class TokenResponse
+    {
+        [JsonPropertyName("token")]
+        public string Token { get; set; } = "";
+    }
+}

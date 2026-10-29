@@ -1,0 +1,45 @@
+
+@page "/reparations"
+@using GestionOrdinateurs.Shared
+@using System.Net.Http.Json
+@inject HttpClient Http
+
+<h3>Historique des réparations</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID ordinateur</th>
+            <th>Nom ordinateur</th>
+            <th>Technicien</th>
+            <th>Type de réparation</th>
+            <th>Date d'intervention</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (reparations != null)
+        {
+            @foreach (var reparation in reparations)
+            {
+                <tr>
+                    <td>@reparation.OrdinateurId</td>
+                    <td>@reparation.NomOrdinateur</td>
+                    <td>@reparation.Technicien</td>
+                    <td>@reparation.TypeReparation</td>
+                    <td>@reparation.DateIntervention</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<HistoriqueReparationRecord>? reparations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        reparations =
+            await Http.GetFromJsonAsync<List<HistoriqueReparationRecord>>(
+                "http://localhost:5010/reparations/historique");
+    }
+}

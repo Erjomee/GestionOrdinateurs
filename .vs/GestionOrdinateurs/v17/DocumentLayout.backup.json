@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionOrdinateurs.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Controller\\ReparationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionOrdinateurs.API\\Controller\\ReparationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionOrdinateurs.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
+              "RelativeDocumentMoniker": "GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
+              "RelativeToolTip": "GestionOrdinateurs.Tests\\GestionOrdinateurs.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-23T12:32:52.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionOrdinateurs.API.csproj",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj",
+              "RelativeDocumentMoniker": "GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj",
+              "RelativeToolTip": "GestionOrdinateurs.API\\GestionOrdinateurs.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-23T12:31:41.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionOrdinateurs.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+              "RelativeDocumentMoniker": "GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+              "RelativeToolTip": "GestionOrdinateurs.Shared\\GestionOrdinateurs.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-23T12:31:28.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Program.cs",
+              "RelativeDocumentMoniker": "GestionOrdinateurs.API\\Program.cs",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Program.cs",
+              "RelativeToolTip": "GestionOrdinateurs.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:28:12.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReparationController.cs",
+              "DocumentMoniker": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Controller\\ReparationController.cs",
+              "RelativeDocumentMoniker": "GestionOrdinateurs.API\\Controller\\ReparationController.cs",
+              "ToolTip": "C:\\Users\\jerom\\Documents\\EFREI\\Ing\u00E92\\Programmation C#\\GestionOrdinateurs\\GestionOrdinateurs.API\\Controller\\ReparationController.cs",
+              "RelativeToolTip": "GestionOrdinateurs.API\\Controller\\ReparationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:27:27.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
