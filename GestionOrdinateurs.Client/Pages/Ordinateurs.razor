@@ -58,7 +58,7 @@
                 new AuthenticationHeaderValue("Bearer", token);
 
             var response = await Http.GetAsync(
-                "http://localhost:5010/ordinateurs");
+                "http://localhost:8081/ordinateurs");
 
             if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
             {

@@ -14,7 +14,7 @@ builder.Services.AddBlazoredSessionStorage();
 
 builder.Services.AddHttpClient("AuthenticationApi", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5102/");
+    client.BaseAddress = new Uri("http://localhost:5157/");
 });
 
 await builder.Build().RunAsync();
